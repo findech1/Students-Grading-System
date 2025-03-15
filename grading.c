@@ -1,5 +1,5 @@
 /**
- * Student Grade Management System
+ * KCAU Student Grade Management System
  * This program handles student information, calculates grades,
  * and stores the data in a CSV file.
  */
@@ -111,7 +111,7 @@
      char choice;
      
      do {
-         printf("\n--- Student Grade Management System ---\n");
+         printf("\n--- KCAU Student Grade Management System ---\n");
          
          // Read student data
          readStudentData(&student);
@@ -136,7 +136,7 @@
          
      } while (choice == 'y' || choice == 'Y');
      
-     printf("Thank you for using the Student Grade Management System!\n");
+     printf("Thank you for using KCAU Student Grade Management System!\n");
      
      return 0;
  }
